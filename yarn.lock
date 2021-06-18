@@ -3298,7 +3298,7 @@ chokidar@^2.1.8:
     anymatch "^2.0.0"
     async-each "^1.0.1"
     braces "^2.3.2"
-    glob-parent "^3.1.0"
+    glob-parent@^5.1.2
     inherits "^2.0.3"
     is-binary-path "^1.0.0"
     is-glob "^4.0.0"
@@ -7428,7 +7428,7 @@ meow@^3.7.0:
     object-assign "^4.0.1"
     read-pkg-up "^1.0.1"
     redent "^1.0.0"
-    trim-newlines "^1.0.0"
+    trim-newlines@^3.0.1
 
 merge-descriptors@1.0.1:
   version "1.0.1"
@@ -7536,7 +7536,7 @@ mini-css-extract-plugin@0.11.3:
   integrity sha512-n9BA8LonkOkW1/zn+IbLPQmovsL0wMb9yx75fMJQZf2X1Zoec9yTZtyMePcyu19wPkmFbzZZA6fLTotpFhQsOA==
   dependencies:
     loader-utils "^1.1.0"
-    normalize-url "1.9.1"
+    normalize-url@^4.5.1
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
@@ -8505,7 +8505,7 @@ postcss-attribute-case-insensitive@^4.0.1:
   resolved "https://registry.yarnpkg.com/postcss-attribute-case-insensitive/-/postcss-attribute-case-insensitive-4.0.2.tgz#d93e46b504589e94ac7277b0463226c68041a880"
   integrity sha512-clkFxk/9pcdb4Vkn0hAHq3YnxBQ2p0CGD1dy24jN+reBck+EWxMbxSUqN4Yj7t0w8csl87K6p0gxBe1utkJsYA==
   dependencies:
-    postcss "^7.0.2"
+    postcss@^7.0.36
     postcss-selector-parser "^6.0.2"
 
 postcss-browser-comments@^3.0.0:
@@ -9032,7 +9032,7 @@ postcss-reduce-initial@^4.0.3:
   resolved "https://registry.yarnpkg.com/postcss-reduce-initial/-/postcss-reduce-initial-4.0.3.tgz#7fd42ebea5e9c814609639e2c2e84ae270ba48df"
   integrity sha512-gKWmR5aUulSjbzOfD9AlJiHCGH6AEVLaM0AV+aSioxUDd16qXP1PCh8d1/BGVvpdWn8k/HiK7n6TjeoXN1F7DA==
   dependencies:
-    browserslist "^4.0.0"
+    browserslist@^4.16.5
     caniuse-api "^3.0.0"
     has "^1.0.0"
     postcss "^7.0.0"
